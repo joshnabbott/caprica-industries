@@ -1,3 +1,5 @@
+@import "bootstrap.min.css";
+
 @font-face {
   font-family: 'GillSans';
   src: url('gillsans.eot');
@@ -20,6 +22,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color: #fff;
   overflow: hidden;
 }
 
@@ -35,3 +38,20 @@ h1 {
   width: 100%;
 }
 
+footer {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  padding: 25px;
+  margin-top: 30px;
+  text-align: center;
+  width: 450px;
+}
+
+form h3 {
+  margin-bottom: 19px;
+}

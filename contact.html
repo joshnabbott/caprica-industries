@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Caprica Industries - Contact</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="row-fluid">
+      <form method="post" action="http://capricaindustries.mailmanhq.com" class="form-horizontal">
+        <h3>Want to know more?</h3>
+        <fieldset>
+          <div class="control-group">
+            <label for="contact-name" class="control-label">Name:</label>
+            <div class="controls">
+              <input type="text" name="message[sender]" id="contact-name" placeholder="required" />
+            </div>
+          </div>
+          <div class="control-group">
+            <label for="contact-email" class="control-label">Email:</label>
+            <div class="controls">
+              <input type="text" name="message[from]" id="contact-email" placeholder="required" />
+            </div>
+          </div>
+          <div class="control-group">
+            <label for="contact-phone" class="control-label">Phone:</label>
+            <div class="controls">
+              <input type="text" name="message[phone]" id="contact-phone" />
+            </div>
+          </div>
+          <div class="control-group">
+            <label for="contact-message" class="control-label">How can I help?</label>
+            <div class="controls">
+              <textarea name="message[body]" id="contact-message" placeholder="required"></textarea>
+            </div>
+          </div>
+        </fieldset>
+        <input type="hidden" name="token" value="58f876d27671962832c1" />
+        <input type="hidden" name="redirect" value="http://www.capricaindustries.com/contact.html" />
+        <input type="hidden" name="message[subject]" value="[CAPRICA INDUSTRIES] - Contact Form" />
+        <input type="submit" name="commit" value="Send" class="btn btn-primary" />
+      </form>
+    </div>
+  </body>
+</html>
+
